@@ -1,0 +1,246 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Be Vietnam Pro', sans-serif;
+	font-size: 62.5%;
+}
+
+body {
+	width: 100vw;
+}
+
+@font-face {
+	font-family: 'PF Regal Display Pro';
+	src: url('./font/PFRegalDisplayPro-Black.woff') format('woff'),
+		url('/css/font/PFRegalDisplayPro-BlackItalic.woff') format('woff'),
+		url('/css/font/PFRegalDisplayPro-Bold.woff') format('woff'),
+		url('/css/font/PFRegalDisplayPro-BoldItalic.woff') format('woff'),
+		url('/css/font/PFRegalDisplayPro-Italic.woff') format('woff'),
+		url('/css/font/PFRegalDisplayPro-Medium.woff') format('woff'),
+		url('/css/font/PFRegalDisplayPro-MediumItalic.woff') format('woff'),
+		url('/css/font/PFRegalDisplayPro-Regular.woff') format('woff');
+}
+
+.main-header {
+	height: 100vh;
+	width: 100vw;
+	background-image: url('../img/hero-1.png');
+	background-size: cover;
+	color: #fff; /* Color del texto en el encabezado */
+	text-align: center;
+	position: relative;
+}
+
+.main-header::before {
+	content: '';
+	background-color: rgba(0, 0, 0, 0.5);
+	/*background: linear-gradient(270deg, #000 0%, #7E7E7E 100%);
+    mix-blend-mode: overlay;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.main-header .navigation-menu {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 10vh;
+	padding: 4rem;
+	border-bottom-color: white;
+	border-bottom-style: solid;
+}
+
+.main-header .navigation-menu .navigation-logo {
+	z-index: 2;
+	display: flex;
+	align-items: center;
+}
+
+.main-header .navigation-menu .navigation-logo img {
+	width: 90%;
+}
+
+.main-header .navigation-menu .menu-links {
+	display: flex;
+	z-index: 2;
+	width: 40%;
+	justify-content: space-between;
+}
+
+.main-header .navigation-menu .menu-links .auth {
+	width: 40%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.main-header .navigation-menu .menu-links .auth a {
+	width: 50%;
+	display: flex;
+	align-items: center;
+    font-size: 12px;
+}
+
+.main-header .navigation-menu .menu-links .auth .auth-separator {
+    border-left: #fff;
+    border-left-style: solid;
+    border-width: 1px;
+    height: 20px;
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+}
+
+.lang-separator {
+        border-left: #fff;
+    border-left-style: solid;
+    border-width: 1px;
+    height: 40px;
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+}
+
+.main-header .navigation-menu .menu-links .lang {
+	width: 40%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.main-header .navigation-menu .menu-links .lang a {
+	width: 50%;
+	display: flex;
+	align-items: center;
+    font-size: 12px;
+}
+
+.hero {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	display: flex;
+}
+
+.hero .social-links {
+	width: 2%;
+	position: relative;
+	height: 100%;
+	margin-top: 20%;
+}
+
+.hero .social-links p {
+	transform: rotate(90deg);
+}
+
+.hero .social-links img {
+	margin: 5px;
+}
+.hero .social-links .social-line {
+margin-top: 37px;
+}
+
+.hero .title {
+	width: 49%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	position: relative;
+	top: 35rem;
+}
+
+.hero .title {
+	display: flex;
+	flex-direction: column;
+}
+
+.hero .title #first-line {
+	display: flex;
+	font-family: 'PF Regal Display Pro', sans-serif;
+	font-weight: lighter;
+	font-size: small;
+}
+
+.hero .title h1 {
+	display: block;
+	font-family: 'PF Regal Display Pro', sans-serif;
+	font-size: xx-large;
+	font-weight: lighter;
+}
+
+.hero .search-bar {
+	width: 49%;
+}
+
+.custom-button {
+	background: transparent;
+	border: 1px solid #fff;
+	padding: 10px 50px;
+	position: relative;
+	border-radius: 30px;
+	color: white;
+}
+
+.arrow-icon {
+	position: absolute;
+	left: 10px;
+}
+
+.custom-button:hover {
+	background: #000;
+	color: #fff;
+	transition: background 0.3s ease, color 0.3s ease;
+}
+
+.arrow-icon {
+	height: 30%;
+}
+
+.input-wrapper {
+    margin-top: 5rem;
+    margin-left: 30rem;
+	position: relative;
+	width: 271px;
+}
+
+.input {
+	box-sizing: border-box;
+	color: #191919;
+	padding: 15px 15px 15px 35px;
+	width: 100%;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    height: 50px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+
+.input-icon {
+	color: #191919;
+	position: absolute;
+	right: 12px;
+	top: 25px;
+	transform: translateY(-50%);
+}
+
+.hamburger-wrapper {
+    position: relative;
+    padding-right: 30px;
+}
+
+.hamburger-wrapper img {
+    position: absolute;
+    top:-14px
+}
