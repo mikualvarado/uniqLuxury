@@ -244,3 +244,95 @@ input::placeholder {
     position: absolute;
     top:-14px
 }
+
+main .gallery-sale-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+main .gallery-sale-container .gallery-sale {
+    width: 50%;
+}
+
+main .gallery-sale-container .gallery-sale img {
+    height: 50vh;
+    margin-top: 10rem;
+}
+
+main .gallery-sale-container .gallery-sale-title {
+    width: 50%;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 80px;
+    text-align: right;
+    flex-direction: column;
+}
+
+main .gallery-sale-container .gallery-sale-title p {
+    font-size: 25px;
+}
+
+main .gallery-sale-container .gallery-sale-title h2 {
+    font-size: 50px;
+}
+
+main .gallery-sale-container .gallery-sale-title .sale-buttons {
+    margin-top: 25rem;
+}
+
+
+/*************************************************************************/
+main .gallery-rent-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+main .gallery-rent-container .gallery-rent {
+    width: 50%;
+}
+
+main .gallery-rent-container .gallery-rent img {
+    height: 50vh;
+    margin-top: 10rem;
+}
+
+main .gallery-rent-container .gallery-rent-title {
+    width: 50%;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 80px;
+    text-align: left;
+    flex-direction: column;
+}
+
+main .gallery-rent-container .gallery-rent-title p {
+    font-size: 25px;
+}
+
+main .gallery-rent-container .gallery-rent-title h2 {
+    font-size: 50px;
+}
+
+main .gallery-rent-container .gallery-rent-title .rent-buttons {
+    margin-top: 15rem;
+}
+
+.luxury-properties-container {
+    width: 100vw;
+    height: auto;
+}
+
+.properties-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.properties-list div img {
+    margin-right: 1rem;
+}
