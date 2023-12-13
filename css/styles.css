@@ -567,12 +567,29 @@ main
 	margin-left: 1.5rem;
 }
 
-
-
-
 .luxury-properties-container {
 	width: 100vw;
 	height: auto;
+}
+
+.luxury-properties-container .subtitle {
+	color: #df991b;
+	text-align: center;
+	font-family: 'PF Regal Display Pro';
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.luxury-properties-container .title {
+	color: #000;
+	text-align: center;
+	font-family: 'PF Regal Display Pro';
+	font-size: 70px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 90px;
 }
 
 .properties-list {
@@ -580,8 +597,28 @@ main
 	flex-wrap: wrap;
 	width: 100%;
 	justify-content: center;
+	margin-top: 3rem;
 }
 
 .properties-list div img {
 	margin-right: 1rem;
+}
+
+.properties-list div p {
+	color: #464547;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+	margin-top: 2rem;
+}
+
+.properties-list div h3 {
+	color: #000;
+	font-family: PF Regal Display Pro;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 45px; /* 112.5% */
+	margin-bottom: 2.5rem;
 }
