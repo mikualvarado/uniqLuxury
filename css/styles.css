@@ -14,14 +14,14 @@ body {
 
 @font-face {
 	font-family: 'PF Regal Display Pro';
-	src: url('/css/font/PFRegalDisplayPro-Regular.woff2') format('woff2');	
+	src: url('/css/font/PFRegalDisplayPro-Regular.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'PF Regal Display Pro';
-	src: url('/css/font/PFRegalDisplayPro-Medium.woff') format('woff');	
+	src: url('/css/font/PFRegalDisplayPro-Medium.woff') format('woff');
 }
 
 .main-header {
@@ -83,31 +83,31 @@ body {
 	width: 50%;
 	display: flex;
 	align-items: center;
-    font-size: 12px;
+	font-size: 12px;
 }
 
 .main-header .navigation-menu .menu-links .auth a:first-child {
-	color: #7E7E7E;
+	color: #7e7e7e;
 }
 
 .main-header .navigation-menu .menu-links .auth .auth-separator {
-    border-left: #fff;
-    border-left-style: solid;
-    border-width: 1px;
-    height: 20px;
-    position: relative;
-    bottom: 10px;
-    right: 30px;
+	border-left: #fff;
+	border-left-style: solid;
+	border-width: 1px;
+	height: 20px;
+	position: relative;
+	bottom: 10px;
+	right: 30px;
 }
 
 .lang-separator {
-        border-left: #fff;
-    border-left-style: solid;
-    border-width: 1px;
-    height: 40px;
-    position: relative;
-    bottom: 20px;
-    right: 30px;
+	border-left: #fff;
+	border-left-style: solid;
+	border-width: 1px;
+	height: 40px;
+	position: relative;
+	bottom: 20px;
+	right: 30px;
 }
 
 .main-header .navigation-menu .menu-links .lang {
@@ -120,11 +120,11 @@ body {
 	width: 50%;
 	display: flex;
 	align-items: center;
-    font-size: 12px;
+	font-size: 12px;
 }
 
 .main-header .navigation-menu .menu-links .lang a:first-child {
-	color: #7E7E7E;
+	color: #7e7e7e;
 }
 
 .hero {
@@ -150,7 +150,7 @@ body {
 	margin: 5px;
 }
 .hero .social-links .social-line {
-margin-top: 37px;
+	margin-top: 37px;
 }
 
 .hero .title {
@@ -218,8 +218,8 @@ margin-top: 37px;
 }
 
 .input-wrapper {
-    margin-top: 5rem;
-    margin-left: 30rem;
+	margin-top: 5rem;
+	margin-left: 30rem;
 	position: relative;
 	width: 100%;
 }
@@ -229,18 +229,17 @@ margin-top: 37px;
 	color: #191919;
 	padding: 15px 15px 15px 35px;
 	width: 64%;
-    background-color: transparent;
-    border-style: solid;
-    border-color: white;
-    border-radius: 50px;
-    height: 50px;
+	background-color: transparent;
+	border-style: solid;
+	border-color: white;
+	border-radius: 50px;
+	height: 50px;
 	border-width: 1px;
 }
 
 input::placeholder {
-    color: white;
+	color: white;
 }
-
 
 .input-icon {
 	color: #191919;
@@ -251,105 +250,255 @@ input::placeholder {
 }
 
 .hamburger-wrapper {
-    position: relative;
-    padding-right: 30px;
+	position: relative;
+	padding-right: 30px;
 }
 
 .hamburger-wrapper img {
-    position: absolute;
-    top:-14px
+	position: absolute;
+	top: -14px;
 }
 
 main .gallery-sale-container {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
 }
 
 main .gallery-sale-container .gallery-sale {
-    width: 50%;
+	width: 50%;
 }
 
 main .gallery-sale-container .gallery-sale img {
-    height: 50vh;
-    margin-top: 10rem;
+	height: 50vh;
+	margin-top: 10rem;
+}
+
+main .gallery-sale-container .gallery-sale .container-left {
+	position: relative;
+	display: inline-block;
+}
+
+main .gallery-sale-container .gallery-sale .overlay-text-left {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+main .gallery-sale-container .gallery-sale .container-right {
+	position: relative;
+	display: inline-block;
+}
+
+main .gallery-sale-container .gallery-sale .overlay-text-right {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
 }
 
 main .gallery-sale-container .gallery-sale-title {
-    width: 50%;
-    margin-top: 10rem;
-    display: flex;
-    justify-content: flex-start;
-    margin-right: 80px;
-    text-align: right;
-    flex-direction: column;
+	width: 50%;
+	margin-top: 10rem;
+	display: flex;
+	justify-content: flex-start;
+	margin-right: 80px;
+	text-align: right;
+	flex-direction: column;
 	font-family: 'PF Regal Display Pro';
 }
 
 main .gallery-sale-container .gallery-sale-title p {
-    font-size: 25px;
-	color: #DF991B;
+	font-size: 25px;
+	color: #df991b;
 }
 
 main .gallery-sale-container .gallery-sale-title h2 {
-    font-size: 50px;
+	font-size: 50px;
 }
 
 main .gallery-sale-container .gallery-sale-title .sale-buttons {
-    margin-top: 25rem;
+	margin-top: 25rem;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
 }
 
+main
+	.gallery-sale-container
+	.gallery-sale-title
+	.sale-buttons
+	.sale-buttons-wrapper {
+	width: 80%;
+}
 
+main
+	.gallery-sale-container
+	.gallery-sale-title
+	.sale-buttons
+	.sale-buttons-wrapper
+	.button-previous {
+	background-color: transparent;
+	border: none;
+	color: #b4b7b7;
+	padding: 0px 40px;
+	display: inline-flex;
+	align-items: center;
+	height: 50px;
+}
+main
+	.gallery-sale-container
+	.gallery-sale-title
+	.sale-buttons
+	.sale-buttons-wrapper
+	.button-previous
+	img {
+	height: 2rem;
+	margin-right: 1.5rem;
+}
+
+main
+	.gallery-sale-container
+	.gallery-sale-title
+	.sale-buttons
+	.sale-buttons-wrapper
+	.button-properties {
+	background-color: transparent;
+	height: 50px;
+	width: 200px;
+	border-radius: 30px;
+}
+
+main
+	.gallery-sale-container
+	.gallery-sale-title
+	.sale-buttons
+	.sale-buttons-wrapper
+	.button-next {
+	background-color: transparent;
+	border: none;
+	color: #df991b;
+	padding: 0px 20px 0px 40px;
+	display: inline-flex;
+	align-items: center;
+	height: 50px;
+}
+
+main
+	.gallery-sale-container
+	.gallery-sale-title
+	.sale-buttons
+	.sale-buttons-wrapper
+	.button-next
+	img {
+	height: 2rem;
+	margin-left: 1.5rem;
+}
 /*************************************************************************/
 main .gallery-rent-container {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
 }
 
 main .gallery-rent-container .gallery-rent {
-    width: 50%;
+	width: 50%;
 }
 
 main .gallery-rent-container .gallery-rent img {
-    height: 50vh;
-    margin-top: 10rem;
+	height: 50vh;
+	margin-top: 10rem;
+}
+
+main .gallery-rent-container .gallery-rent .container-left {
+	position: relative;
+	display: inline-block;
+	background-color: yellow;
+}
+
+main .gallery-rent-container .gallery-rent .container-left .overlay-text-left {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+main .gallery-rent-container .gallery-rent .container-right {
+	position: relative;
+	display: inline-block;
+	background-color: yellow;
+}
+
+main
+	.gallery-rent-container
+	.gallery-rent
+	.container-right
+	.overlay-text-right {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
 }
 
 main .gallery-rent-container .gallery-rent-title {
-    width: 50%;
-    margin-top: 10rem;
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 80px;
-    text-align: left;
-    flex-direction: column;
+	width: 50%;
+	margin-top: 10rem;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 80px;
+	text-align: left;
+	flex-direction: column;
+	font-family: 'PF Regal Display Pro';
 }
 
-main .gallery-rent-container .gallery-rent-title p {
-    font-size: 25px;
+main .gallery-rent-container .gallery-rent-title .title {
+	font-size: 25px;
+	color: #df991b;
 }
 
 main .gallery-rent-container .gallery-rent-title h2 {
-    font-size: 50px;
+	font-size: 50px;
+}
+
+main .gallery-rent-container .gallery-rent-title .description {
+	font-size: 20px;
+	width: 75%;
+	margin-top: 3.5rem;
 }
 
 main .gallery-rent-container .gallery-rent-title .rent-buttons {
-    margin-top: 15rem;
+	margin-top: 10rem;
 }
 
 .luxury-properties-container {
-    width: 100vw;
-    height: auto;
+	width: 100vw;
+	height: auto;
 }
 
 .properties-list {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
 }
 
 .properties-list div img {
-    margin-right: 1rem;
+	margin-right: 1rem;
 }
