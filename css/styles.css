@@ -5,7 +5,6 @@
 }
 
 html {
-	font-family: 'Be Vietnam Pro', sans-serif;
 	font-size: 62.5%;
 }
 
@@ -15,14 +14,14 @@ body {
 
 @font-face {
 	font-family: 'PF Regal Display Pro';
-	src: url('./font/PFRegalDisplayPro-Black.woff') format('woff'),
-		url('/css/font/PFRegalDisplayPro-BlackItalic.woff') format('woff'),
-		url('/css/font/PFRegalDisplayPro-Bold.woff') format('woff'),
-		url('/css/font/PFRegalDisplayPro-BoldItalic.woff') format('woff'),
-		url('/css/font/PFRegalDisplayPro-Italic.woff') format('woff'),
-		url('/css/font/PFRegalDisplayPro-Medium.woff') format('woff'),
-		url('/css/font/PFRegalDisplayPro-MediumItalic.woff') format('woff'),
-		url('/css/font/PFRegalDisplayPro-Regular.woff') format('woff');
+	src: url('/css/font/PFRegalDisplayPro-Regular.woff2') format('woff2');	
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PF Regal Display Pro';
+	src: url('/css/font/PFRegalDisplayPro-Medium.woff') format('woff');	
 }
 
 .main-header {
@@ -87,6 +86,10 @@ body {
     font-size: 12px;
 }
 
+.main-header .navigation-menu .menu-links .auth a:first-child {
+	color: #7E7E7E;
+}
+
 .main-header .navigation-menu .menu-links .auth .auth-separator {
     border-left: #fff;
     border-left-style: solid;
@@ -120,6 +123,10 @@ body {
     font-size: 12px;
 }
 
+.main-header .navigation-menu .menu-links .lang a:first-child {
+	color: #7E7E7E;
+}
+
 .hero {
 	width: 100%;
 	position: relative;
@@ -132,6 +139,7 @@ body {
 	position: relative;
 	height: 100%;
 	margin-top: 20%;
+	margin-left: 1.5rem;
 }
 
 .hero .social-links p {
@@ -159,20 +167,21 @@ margin-top: 37px;
 .hero .title {
 	display: flex;
 	flex-direction: column;
+	font-family: 'PF Regal Display Pro', sans-serif;
 }
 
 .hero .title #first-line {
 	display: flex;
 	font-family: 'PF Regal Display Pro', sans-serif;
-	font-weight: lighter;
-	font-size: small;
+	font-weight: 100;
+	font-size: 20px;
 }
 
 .hero .title h1 {
 	display: block;
 	font-family: 'PF Regal Display Pro', sans-serif;
-	font-size: xx-large;
-	font-weight: lighter;
+	font-size: 50px;
+	margin-left: 1.5rem;
 }
 
 .hero .search-bar {
@@ -186,11 +195,16 @@ margin-top: 37px;
 	position: relative;
 	border-radius: 30px;
 	color: white;
+	margin-top: 2rem;
+	margin-left: 1.5rem;
+	height: 50px;
+	width: 70%;
 }
 
 .arrow-icon {
 	position: absolute;
 	left: 10px;
+	padding-left: 1.5rem;
 }
 
 .custom-button:hover {
@@ -207,19 +221,20 @@ margin-top: 37px;
     margin-top: 5rem;
     margin-left: 30rem;
 	position: relative;
-	width: 271px;
+	width: 100%;
 }
 
 .input {
 	box-sizing: border-box;
 	color: #191919;
 	padding: 15px 15px 15px 35px;
-	width: 100%;
+	width: 64%;
     background-color: transparent;
     border-style: solid;
     border-color: white;
     border-radius: 50px;
     height: 50px;
+	border-width: 1px;
 }
 
 input::placeholder {
@@ -230,7 +245,7 @@ input::placeholder {
 .input-icon {
 	color: #191919;
 	position: absolute;
-	right: 12px;
+	right: 170px;
 	top: 25px;
 	transform: translateY(-50%);
 }
@@ -268,10 +283,12 @@ main .gallery-sale-container .gallery-sale-title {
     margin-right: 80px;
     text-align: right;
     flex-direction: column;
+	font-family: 'PF Regal Display Pro';
 }
 
 main .gallery-sale-container .gallery-sale-title p {
     font-size: 25px;
+	color: #DF991B;
 }
 
 main .gallery-sale-container .gallery-sale-title h2 {
