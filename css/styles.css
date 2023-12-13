@@ -487,6 +487,89 @@ main .gallery-rent-container .gallery-rent-title .rent-buttons {
 	margin-top: 10rem;
 }
 
+/*rent buttons*/
+
+main .gallery-rentcontainer .gallery-rent-title .rent-buttons {
+	margin-top: 25rem;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+main
+	.gallery-rent-container
+	.gallery-rent-title
+	.rent-buttons
+	.rent-buttons-wrapper {
+	width: 80%;
+}
+
+main
+	.gallery-rent-container
+	.gallery-rent-title
+	.rent-buttons
+	.rent-buttons-wrapper
+	.button-previous {
+	background-color: transparent;
+	border: none;
+	color: #b4b7b7;
+	padding: 0px 40px 0px 0px;
+	display: inline-flex;
+	align-items: center;
+	height: 50px;
+}
+main
+	.gallery-rent-container
+	.gallery-rent-title
+	.rent-buttons
+	.rent-buttons-wrapper
+	.button-previous
+	img {
+	height: 2rem;
+	margin-right: 1.5rem;
+}
+
+main
+	.gallery-rent-container
+	.gallery-rent-title
+	.rent-buttons
+	.rent-buttons-wrapper
+	.button-properties {
+	background-color: transparent;
+	height: 50px;
+	width: 200px;
+	border-radius: 30px;
+}
+
+main
+	.gallery-rent-container
+	.gallery-rent-title
+	.rent-buttons
+	.rent-buttons-wrapper
+	.button-next {
+	background-color: transparent;
+	border: none;
+	color: #df991b;
+	padding: 0px 20px 0px 40px;
+	display: inline-flex;
+	align-items: center;
+	height: 50px;
+}
+
+main
+	.gallery-rent-container
+	.gallery-rent-title
+	.rent-buttons
+	.rent-buttons-wrapper
+	.button-next
+	img {
+	height: 2rem;
+	margin-left: 1.5rem;
+}
+
+
+
+
 .luxury-properties-container {
 	width: 100vw;
 	height: auto;
