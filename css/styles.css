@@ -619,6 +619,141 @@ main
 	font-size: 30px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 45px; /* 112.5% */
+	line-height: 45px;
 	margin-bottom: 2.5rem;
+}
+
+main .services {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	margin-top: 5rem;
+}
+
+main .services .gallery-services {
+	position: relative;
+	width: 85%;
+	overflow: hidden;
+}
+
+main .services .gallery-services .gray-rectangle {
+	position: absolute;
+	left: -50px;
+	z-index: 1;
+	height: 63rem;
+	width: 50%;
+	margin-left: 18rem;
+}
+
+main .services .gallery-services .hall {
+	position: relative;
+	z-index: 2;
+	width: 65%;
+	left: 30%;
+	margin-top: 6.5rem;
+}
+
+main .services .gallery-services-title .services-title {
+	width: auto;
+}
+
+main .services .gallery-services-title .services-title img {
+	margin-top: 6rem;
+}
+
+main .services .gallery-services-title .services-title .title {
+	font-size: 25px;
+	color: #df991b;
+	margin-top: 2rem;
+}
+
+main .services .gallery-services-title .services-title h2 {
+	font-size: 50px;
+	width: 50%;
+}
+
+main .services .gallery-services-title .services-title .description {
+	font-size: 20px;
+	width: 75%;
+	margin-top: 3.5rem;
+}
+
+/*buttonsssssss*/
+main .services .gallery-services-title .services-buttons {
+	margin-top: 15rem;
+	width: 80%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+main
+	.services
+	.gallery-services-title
+	.services-buttons
+	.services-buttons-wrapper {
+	width: 80%;
+}
+
+main
+	.services
+	.gallery-services-title
+	.services-buttons
+	.services-buttons-wrapper
+	.button-previous {
+	background-color: transparent;
+	border: none;
+	color: #b4b7b7;
+	padding: 0px 40px;
+	display: inline-flex;
+	align-items: center;
+	height: 50px;
+}
+
+main
+	.services
+	.gallery-services-title
+	.services-buttons
+	.services-buttons-wrapper
+	.button-previous
+	img {
+	height: 2rem;
+	margin-right: 1.5rem;
+}
+
+main
+	.services
+	.gallery-services-title
+	.services-buttons
+	.services-buttons-wrapper
+	.button-properties {
+	background-color: transparent;
+	height: 50px;
+	width: 200px;
+	border-radius: 30px;
+}
+
+main
+	.services
+	.gallery-services-title
+	.services-buttons
+	.services-buttons-wrapper
+	.button-next {
+	background-color: transparent;
+	border: none;
+	color: #df991b;
+	padding: 0px 20px 0px 40px;
+	display: inline-flex;
+	align-items: center;
+	height: 50px;
+}
+
+main
+	.services
+	.gallery-services-title
+	.services-buttons
+	.services-buttons-wrapper
+	.button-next
+	img {
+	height: 2rem;
+	margin-left: 1.5rem;
 }
